@@ -21,7 +21,7 @@ export class AppComponent {
 
   types = ["ex1"];
 
-  extratypes = ["x"];
+  extratypes = ["f"];
 
   ngOnInit() {
     this.results = this.filterCode(this.backendResponse);
