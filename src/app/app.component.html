@@ -1,0 +1,21 @@
+<label for="types">TYPES</label>
+
+<select name="types">
+  <option *ngFor="let t of types">{{t}}</option>
+</select>
+<br />
+<br />
+<br />
+<label for="extratypes">extra TYPES</label>
+
+<select name="types" (change)="onchanging()">
+  <option *ngFor="let ex of extratypes">{{ex}}</option>
+</select>
+<br />
+<br />
+<br />
+<label for="results">RESULTS</label>
+
+<select name="results">
+  <option *ngFor="let r of results">{{r.color}}</option>
+</select>
